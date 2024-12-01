@@ -7,7 +7,7 @@ edition = "2021"
 rayon = "1.10.0"
 rand = { version = "0.8.5", features = ["small_rng", "alloc"] }
 regex = "1.11.1"
-sscanf = "0.4.2"
+sscanf = { git = "https://www.github.com/mich101mich/sscanf", branch = "dev" }
 permutohedron = "0.2.4"
 num = "0.4.3"
 nom = "7.1.3"
