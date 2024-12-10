@@ -29,7 +29,7 @@ pub fn run() {
         })
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -61,5 +61,5 @@ pub fn part_one() {
         })
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }

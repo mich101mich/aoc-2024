@@ -35,7 +35,7 @@ pub fn run() {
         .map(|(a, b)| a * b)
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -50,5 +50,5 @@ pub fn part_one() {
         .map(|(a, b)| a * b)
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }

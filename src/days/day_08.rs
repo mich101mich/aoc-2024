@@ -35,7 +35,7 @@ pub fn run() {
     }
 
     let result = antinodes.count();
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -72,5 +72,5 @@ pub fn part_one() {
     }
 
     let result = antinodes.count();
-    pv!(result);
+    result!(result);
 }

@@ -61,7 +61,7 @@ pub fn run() {
             cycles
         })
         .count();
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -91,5 +91,5 @@ pub fn part_one() {
     }
 
     let result = grid.count_with(|&c| c == 'X');
-    pv!(result);
+    result!(result);
 }

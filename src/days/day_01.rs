@@ -20,7 +20,7 @@ pub fn run() {
         .map(|x| x * counts.get(x).copied().unwrap_or(0))
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -38,5 +38,5 @@ pub fn part_one() {
 
     let result = a.iter().zip(b).map(|(a, b)| a.abs_diff(b)).sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }

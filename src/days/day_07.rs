@@ -32,7 +32,7 @@ pub fn run() {
         .map(|(a, _)| a)
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }
 
 #[allow(unused)]
@@ -65,5 +65,5 @@ pub fn part_one() {
         .map(|(a, _)| a)
         .sum::<usize>();
 
-    pv!(result);
+    result!(result);
 }

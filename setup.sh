@@ -15,7 +15,7 @@ pub fn run() {
 
     // let mut grid = _grid(input);
 
-    let parsed = input
+    let result = input
         //.lines()
         //.chars()
         //.map(parse)
@@ -24,10 +24,11 @@ pub fn run() {
         //.filter(|()|)
         //.to_vec()
         //.sum::<isize>()
+        //.inspect(|x| pv!(x))
         //.count()
         ;
 
-    pv!(parsed);
+    result!(result);
 
 }" > "${SRC_FILE}"
 
